@@ -1,0 +1,11 @@
+#brand-bar {
+    background: linear-gradient(rgb(67, 74, 94), rgb(143, 207, 97));
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    #brand-bar {
+        margin-bottom: 40px;
+        transition: all 1s ease;
+    }
+}
