@@ -33,6 +33,7 @@ img {
 .bigText {
     padding-top: 5px;
     font-size: 30px;
+    padding-bottom: 10px;
 }
 .button {
     margin: 0 auto;
@@ -72,4 +73,23 @@ h4 {
         padding-right: 5px;
         font-size: 12px;
      }
+}
+
+@media screen and (min-width: 768px) {
+    .wholepage { display: flex;}
+    .blueBox {
+        flex: 6;
+    }
+    .whiteBox {
+        display: flex;
+        flex: 6;
+    }
+    .whiteBox > h4 {
+        display: flex;
+        flex: 2;
+    }
+    /*.about-me, .projects {
+        display:flex;
+        flex: 4;
+    }*/
 }
